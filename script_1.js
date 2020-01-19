@@ -12,7 +12,7 @@ function Book(title, author, isbn) {
 function UI() {
 }
 
-// Add to book lisy
+// Add to book list
 UI.prototype.addBookToList = function (book) {
   console.log(book);
 
